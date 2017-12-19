@@ -1,0 +1,1148 @@
+// keys
+$breakpoints: (
+  six:      350px,
+  tween:    480px, 
+  tablet:   768px, 
+  laptop:   1024px,
+  desktop:  1400px,
+);
+
+
+// // font-size, font-family, font-weight
+// $hero-primary-sizes: (
+//   null  :   (30px, normal, 500, $font-soft),
+//   tween :   (40px, normal, 500, $font-soft),
+//   tablet:   (50px, normal, 500, $font-soft),
+//   laptop:   (60px, normal, 500, $font-soft),
+//   desktop:  (70px, normal, 500, $font-soft)
+// );
+
+// $hero-secondary-sizes: (
+//   null  :   (20px, 16px, 300, $font-reg),
+//   tween :   (22px, 24px, 300, $font-reg),
+//   tablet:   (32px, 36px, 300, $font-reg),
+//   laptop:   (32px, 36px, 300, $font-reg),
+//   desktop:  (36px, 36px, 300, $font-reg)
+// );
+
+// // NAV LI TEXT
+// $nav-li-sizes: (
+//   null  :   (300, 20px, 28px, $font-reg, 0 0 20px 0),
+//   desktop:  (300, 22px, 30px, $font-reg, 0 0 20px 0)
+// );
+
+
+// // FOOTER LI TEXT
+// $footer-li-sizes: (
+//   null  :   (300, 20px, 28px, $font-reg, 0 0 20px 0),
+//   desktop:  (300, 22px, 30px, $font-reg, 0 0 20px 0)
+// );
+
+
+
+
+
+// // SECTION TITLES WEB STANDARD
+
+// $section-title-sizes: (
+//   null  :   (500, 28px, normal, $font-reg),
+//   desktop:  (500, 36px, normal, $font-reg)
+// );
+
+// // IMPORTANT TEXT
+// $important-text-sizes: (
+//   null  :   (300, 20px, 28px, $font-reg, 0 0px 20px 0),
+//   tablet:   (300, 20px, 28px, $font-reg, 0 20px 20px 0),
+//   desktop:  (300, 24px, 32px, $font-reg, 0 20px 20px 0)
+// );
+
+// // IMPORTANT UL/OL > LI
+// $important-li-sizes: (
+//   null  :   (16px, normal, 300, $font-reg, 0 0 0 20px),
+//   tween :   (18px, normal, 300, $font-reg, 0 0 0 20px),
+//   tablet:   (18px, normal, 300, $font-reg, 0),
+//   desktop:  (18px, 26px, 300, $font-reg, 0)
+// );
+
+
+// // CONTENT HEADING
+// $content-heading-sizes: (
+//   null  :   (500, 16px, normal, $font-reg, 0 0 20px 0),
+//   desktop:  (500, 18px, normal, $font-reg, 0 0 20px 0)
+// );
+
+
+
+// // CONTENT h2
+// $content-h2-sizes: (
+//   null  :   (18px, 26px, normal, $gray-000, 0 0 10px 0),
+//   desktop:  (22px, 30px, normal, $gray-000, 0 0 10px 0)
+// );
+
+// // CONTENT UL/OL > LI
+// $content-li-sizes: (
+//   null  :   (300, 14px, normal, $font-reg, 0),
+//   tablet:   (300, 16px, normal, $font-reg, 0),
+//   laptop:   (300, 18px, normal, $font-reg, 0),
+// );
+
+
+
+
+
+
+
+
+
+// // CARD WEB STANDARD
+// // height, width, padding
+// $card-sizes: (
+//   null  :   (auto, 95%, 0),
+//   tablet:   (auto, 47%, 0),
+//   laptop:   (auto, 400px, 0),
+//   desktop:  (auto, 500px, 0)
+// );
+// $masonry-gutter-size:(
+//   null  :   (auto, 100%),
+//   tween :   (auto, 49.5%),
+//   laptop:   (auto, 33%),
+// );
+
+// $masonry-article-size:(
+//   null  :   (auto, 98%),
+//   tween :   (auto, 48%),
+//   laptop:   (auto, 31.5%),
+// );
+
+// $blog-featured-image-size: (
+//   null  :   (180px, 100%),
+//   tween :   (180px, 100%),
+//   tablet:   (200px, 100%),
+//   laptop:   (220px, 100%),
+//   desktop:  (250px, 100%)
+// );
+
+
+// $card-heading-sizes : (
+//   null  :   (300, 16px, 40px, $font-reg),
+//   tablet:   (300, 18px, 60px, $font-reg),
+//   desktop:  (300, 22px, 60px, $font-reg)
+// );
+
+
+// $card-content-heading-sizes: (
+//   null  :   (500, 12px, normal, $font-reg, 10px 0 10px 0),
+//   tween :   (500, 16px, normal, $font-reg, 2px 0 10px 0),
+//   tablet:   (300, 13px, normal, $font-reg, 12px 0 12px 0),
+//   laptop:   (500, 14px, normal, $font-reg, 12px 0 12px 0),
+//   desktop:  (500, 16px, normal, $font-reg, 12px 0 12px 0)
+// );
+
+// $card-li-sizes: (
+//   null  :   (300, 16px, 24px, $font-reg),
+//   desktop:  (300, 18px, 28px, $font-reg)
+// );
+
+// // BUTTON WEB STANDARS
+
+// // padding, font-size
+// $large-btn-sizes: (
+//   null  :   (18px, 50px, 0 40px),
+//   desktop:  (22px, 60px, 0 60px)
+// );
+
+// $reg-btn-sizes: (
+//   null  :   (18px, 50px, 10px 40px),
+//   desktop:  (18px, 50px, 10px 70px)
+// );
+
+// // image base styles
+// //controls max width width
+
+
+// $responsive-image-sizes-1: (
+//   null  :   (100% ),
+//   tween :   (100% ),
+//   tablet:   (90% ),
+//   laptop:   (80% ),
+//   desktop:  (70% )
+// );
+
+// // container size tabbed
+// // height
+
+// $tabbed-title-sizes: (
+//   null  :   (22px, 0, 500, $font-soft),
+// );
+
+// $tabbed-li-sizes: (
+//   null  :   (12px, 16px, 300, $font-condensed),
+//   laptop:   (14px, 18px, 300, $font-reg),
+//   desktop:  (14px, 20px, 300, $font-reg)
+// );
+
+// $tabbed-tabs-sizes: (
+//   null  :   (14px, 30px, 300, $font-reg, 0),
+//   desktop:  (16px, 36px, 300, $font-reg, 0)
+// );
+
+// $tabbed-content-image-sizes: (
+//   null  :   (200px),
+//   laptop:   (300px),
+//   desktop:  (420px)
+// );
+
+
+// // ride there
+// // font-size, font-family, font-weight
+// $header-ride-there-title: (
+//   null  :   (900, 90px, 90px, 'sofia-pro'  , 0, 0 0 0 20px),
+//   tween :   (900, 100px, 100px, 'sofia-pro', 0, 0 0 0 30px),
+//   tablet:   (900, 120px, 120px, 'sofia-pro', 0, 0 0 0 60px),
+//   laptop:   (900, 150px, 150px, 'sofia-pro', 0, 0 0 0 100px),
+//   desktop:  (900, 170px, 170px, 'sofia-pro', 0, 0 0 0 100px)
+// );
+
+// $ride-there-btn-sizes: (
+//   null  :   (18px, 44px, 0 30px, 30px 0 0 30px),
+//   tween :   (18px, 50px, 0 30px, 30px 0 0 40px),
+//   tablet:   (20px, 50px, 0 40px, 30px 0 0 80px),
+//   laptop:   (22px, 50px, 0 40px, 30px 0 0 110px),
+// );
+
+// // ••••••••••••••••••••••••••••••
+// // ••••••••••••••••••••••••••••••
+// // set padding and margins
+// // ••••••••••••••••••••••••••••••
+// // ••••••••••••••••••••••••••••••
+
+// // ••••••••••••••••••••••••••••••
+// // header
+// // ••••••••••••••••••••••••••••••
+
+// // jobs posting
+
+// $jobs-posting-padding:(
+//   null  :   (20px 0 16px 0, 0 auto),
+//   tablet:   (12px 0 10px 0, 0 auto),
+// );
+
+
+// // mos partners
+// $scoot-partners-info-cta-padding:(
+//   null  :   (10px, 0 auto),
+//   tablet:   (30px, 0 auto),
+// );
+
+// $partners-brand-list:(
+//   null  :   (0px, 0 auto),
+//   tablet:   (0 10% 0 0, 0 auto),
+// );
+
+// $partners-brand-list-left:(
+//   null  :   (0 0 0 10px, 0 auto),
+//   tablet:   (0 0 0 10%, 0 auto),
+// );
+
+// $header-padding-margin: (
+//   null  :   (20px, 0 auto),
+//   laptop:   (0px, 0 auto),
+// );
+// $nav-logo-2: (
+//   null   :  (0px, 0 0 0 15px),
+//   tablet :  (0px, 0 0 0 20px),
+//   desktop:  (0px, 0 0 0 0px)
+// );
+// $content-container-sizes: (
+//   null  :   (0 $content-padding, 0 auto 32px auto),
+//   desktop:  (0px, 0 auto 32px auto)
+// );
+
+// // homepage 2017
+// $hero-info-bottom-padding:(
+//   null:   (0 , 0 0 6px 0),
+//   tablet: (0, 0 0 16px 0)
+// );
+
+
+// // used for post content
+// $post-container : (
+//   null  :   (0px, 20px auto 0 auto),
+//   laptop:   (0px, 40px auto 0 auto)
+// );
+
+// // tours
+// $tours-description-padding: (
+//   null  :   (0, 0),
+//   laptop:   (0 40px 0 0, 0),
+// );
+
+
+// // tours
+// $tours-left-col-padding: (
+//   null  :   (0, 0),
+//   tablet:   (0 40px 0 0, 0),
+// );
+
+// // dl banner 
+// $body-dl-banner: (
+//   null  :   (0, 140px 0 0 0 !important),
+//   tablet:   (0, 60px 0 0 0 !important)
+// );
+
+// // partners / shortcode for two column layout
+// $two-col-image-padding: (
+//   null  :   (0 0 16px 0, 0),
+//   tablet:   (0,0)
+// );
+
+
+// // ••••••••••••••••••••••••••••••
+// // ••••••••••••••••••••••••••••••
+// // set typography
+// // ••••••••••••••••••••••••••••••
+// // ••••••••••••••••••••••••••••••
+
+
+// // font-size - font-family - font-weight - line-height - color:
+
+
+
+// // fleet
+// $fleet-hero-h1:(
+//   null:(30px, 'sofia-pro', 900, 36px),
+//   tablet: (48px, 'sofia-pro', 900, 52px), 
+// );
+
+// // fleet
+// $courier-hero:(
+//   null:(26px, 'sofia-pro', 600, 30px),
+//   tablet: (36px, 'sofia-pro', 600, auto), 
+// );
+
+
+// // scoot MOS
+
+// $partner-cell-type:(
+//   null:     (16px, 'sofia-pro', 900, 24px),
+//   tablet:   (18px, 'sofia-pro', 900, 28px),
+//   laptop:   (24px, 'sofia-pro', 900, 32px),
+// );
+
+// $scoot-partners-paragraphs:(
+//   null:     (16px, 'sofia-pro', 300, 24px),
+//   tablet:   (18px, 'sofia-pro', 100, 26px),
+//   laptop:   (20px, 'sofia-pro', 100, 28px),
+// );
+
+// $scoot-partners-h1:(
+//   null:     (18px, 'sofia-pro', 600, 26px),
+//   tablet:   (20px, 'sofia-pro', 600, 28px),
+//   laptop:   (24px, 'sofia-pro', 600, 32px),
+// );
+
+// $scoot-mos-hero-h1:(
+//   null:     (20px, 'sofia-pro', 900, 28px),
+//   tablet:   (24px, 'sofia-pro', 900, 32px),
+//   laptop:   (28px, 'sofia-pro', 900, 36px),
+// );
+// $scoot-mos-hero-h2:(
+//   null:     (17px, 'sofia-pro', 400, 22px),
+//   tablet:   (19px, 'sofia-pro', 400, 24px),
+//   laptop:   (21px, 'sofia-pro', 400, 26px),
+// );
+
+
+// $scoot-partners-hero-h1:(
+//   null:     (20px, 'sofia-pro', 900, 28px),
+//   tween :   (30px, 'sofia-pro', 900, 38px),
+//   tablet:   (40px, 'sofia-pro', 900, 48px),
+//   laptop:   (50px, 'sofia-pro', 900, 58px),
+// );
+
+
+// $scoot-partners-info-cta:(
+//   null:     (20px, 'sofia-pro', 300, 30px),
+//   tablet:   (24px, 'sofia-pro', 300, 32px),
+//   laptop:   (26px, 'sofia-pro', 300, 36px),
+// );
+// $mos-video-h1:(
+//   null:     (24px, 'sofia-pro', 900, 32px),
+// );
+// $mos-video-h2:(
+//   null:     (18px, 'sofia-pro', 400, 26px),
+// );
+
+
+// // hero home
+
+// $home-page-hero-h1: (
+//   null:     (30px, 'sofia-pro', 900, 36px, #fff),
+//   six:      (32px, 'sofia-pro', 900, 36px, #fff),
+//   tween :   (40px, 'sofia-pro', 900, 48px, #fff),
+//   tablet:   (50px, 'sofia-pro', 900, 58px, #fff),
+//   laptop:   (42px, 'sofia-pro', 900, 48px, #fff),
+//   desktop:  (48px, 'sofia-pro', 900, 54px, #fff)
+// );
+
+// $home-page-hero-h2: (
+//   null:     (18px, 'sofia-pro', 400, 24px, #fff),
+//   tween:    (24px, 'sofia-pro', 600, 28px, #fff),
+//   tablet:   (20px, 'sofia-pro', 600, 26px, #fff),
+//   laptop:   (22px, 'sofia-pro', 600, 28px, #fff),
+//   desktop:  (24px, 'sofia-pro', 600, 30px, #fff)
+// );
+
+// $home-p: (
+//   null  :   (16px, 'sofia-pro', 300, 22px, $gray-000),
+//   tablet :  (18px, 'sofia-pro', 300, 24px, $gray-000),
+//   laptop:   (20px, 'sofia-pro', 300, 28px, $gray-000),
+//   desktop:  (22px, 'sofia-pro', 300, 32px, $gray-000)
+// );
+
+// // get app on homepage
+// $get-app-heading:(
+//   null  :   (14px, 'sofia-pro', 300, 22px, #fff),
+//   six  :    (16px, 'sofia-pro', 300, 22px, #fff),
+//   tween  :  (18px, 'sofia-pro', 300, 22px, #fff),
+//   tablet:   (20px, 'sofia-pro', 300, 22px, #fff),
+//   laptop:   (22px, 'sofia-pro', 300, 24px, #fff),
+//   desktop:  (22px, 'sofia-pro', 300, 26px, #fff)
+// );
+// $get-app-links:(
+//   null  :   (16px),
+//   laptop:   (18px),
+// );
+
+// $total-miles-info:(
+//   null  :   (24px),
+//   tablet:   (28px),
+//   laptop:   (32px),
+//   desktop:  (34px)
+//   );
+// $total-miles-counter:(
+//   null  :   (60px),
+//   tablet:   (70px),
+//   laptop:   (80px)
+//   );
+
+// $card-details-type:(
+//   null  :   (18px),
+//   tablet:   (20px),
+//   laptop:   (24px),
+//   desktop:  (26px)
+// );
+
+// // daypass
+
+// $daypass-hero-h1:(
+//   null:     (22px),
+//   tween:    (26px),
+//   laptop:   (38px),
+// );
+
+// $daypass-hero-h2:(
+//   null:     (16px),
+//   tween:    (18px),
+//   laptop:   (22px),
+// );
+
+// $daypass-section-h1:(
+//   null:     (26px !important, 'sofia-pro', 500!important, 32px!important),
+//   tween:    (28px !important, 'sofia-pro', 500!important, 34px!important),
+//   laptop:   (32px !important, 'sofia-pro', 900!important, 38px!important),
+// );
+// $daypass-faq-h2:(
+//   null: (16px),
+//   tween:(18px)
+// );
+// $daypass-section-h1-align:(
+//   null:     (center),
+//   tablet:   (left),
+// );
+// $jobs-info-align:(
+//   null:     (center),
+//   tablet:   (left),
+// );
+
+// $start-riding-hero-bottom:(
+//   null  :   (14px, 'sofia-pro', 400, 17px, #fff),
+//   six  :    (15px, 'sofia-pro', 400, 18px, #fff),
+//   tween  :  (18px, 'sofia-pro', 600, 18px, #fff),
+//   tablet:   (20px, 'sofia-pro', 400, 22px, #fff),
+//   laptop:   (22px, 'sofia-pro', 400, 24px, #fff),
+//   desktop:  (22px, 'sofia-pro', 400, 26px, #fff)
+// );
+
+// $start-riding-btn-bottom:(
+//   null  :   (14px, 'sofia-pro', 400, 17px, #fff),
+//   six  :    (15px, 'sofia-pro', 400, 18px, #fff),
+//   tween  :  (18px, 'sofia-pro', 600, 18px, #fff),
+//   tablet:   (20px, 'sofia-pro', 400, 22px, #fff),
+//   laptop:   (22px, 'sofia-pro', 400, 24px, #fff),
+//   desktop:  (22px, 'sofia-pro', 400, 26px, #fff)
+// );
+
+// // homepage titles
+// $home-page-titles:(
+//   null  :   (34px),
+//   tablet:   (36px),
+//   laptop:   (38px),
+//   desktop:  (40px)
+// );
+
+
+// // learn to ride page
+// $learn-to-ride-link:(
+//   null  :   (16px),
+//   tablet:   (18px),
+//   laptop:   (20px),
+//   desktop:  (22px)
+// );
+
+// // testimonal quotes
+// $homepage-quote-type:(
+//   null  :   (22px, 'sofia-pro', 300, 27px),
+//   tablet:   (24px, 'sofia-pro', 300, 32px),
+//   laptop:   (26px, 'sofia-pro', 300, 34px),
+//   desktop:  (28px, 'sofia-pro', 300, 36px)
+// );
+
+// // content paragraphs
+// $p-font-sizes: (
+//   null  :   (14px, 'sofia-pro', 300, 22px, $gray-000),
+//   tablet:   (16px, 'sofia-pro', 300, 24px, $gray-000),
+//   laptop:   (17px, 'sofia-pro', 300, 25px, $gray-000),
+//   desktop:  (18px, 'sofia-pro', 300, 26px, $gray-000)
+// );
+
+// // header
+
+// $nav-links: (
+//   null  :   (12px, inherit, 300, auto, $gray-200),
+//   tablet:   (13px, inherit, 300, auto, $gray-200),
+//   laptop:   (14px, inherit, 300, auto, $gray-200),
+//   desktop:  (15px, inherit, 300, auto, $gray-200)
+// );
+
+// // paragraphs
+// $paragraph-sizes: (
+//   null  :   (16px, 'canada-type-gibson', 300, 24px, $gray-000),
+// );
+
+
+// // tours
+
+
+// $tours-typed: (
+//   null  :   (26px, 'sofia-pro', 600, 38px, #fff),
+//   tablet:   (36px, 'sofia-pro', 600, 46px, #fff),
+//   laptop:   (42px, 'sofia-pro', 600, 52px, #fff),
+//   desktop:  (48px, 'sofia-pro', 600, 60px, #fff)
+// );
+
+// $tours-typed-subheading: (
+//   null  :   (18px, 'sofia-pro', 300, 26px, #fff),
+//   tablet:   (20px, 'sofia-pro', 300, 28px, #fff),
+//   laptop:   (24px, 'sofia-pro', 300, 32px, #fff),
+//   desktop:  (26px, 'sofia-pro', 300, 36px, #fff)
+// );
+
+// $tours-content-h1: (
+//   null  :   (18px, 'sofia-pro', 600, 26px, $gray-000),
+//   tablet:   (20px, 'sofia-pro', 600, 28px, $gray-000),
+//   laptop:   (24px, 'sofia-pro', 600, 32px, $gray-000),
+//   desktop:  (26px, 'sofia-pro', 600, 36px, $gray-000)
+// );
+
+// $tours-content-h3: (
+//   null  :   (18px, 'sofia-pro', 600, 26px, $gray-000),
+//   laptop:   (20px, 'sofia-pro', 600, 32px, $gray-000),
+//   desktop:  (22px, 'sofia-pro', 600, 36px, $gray-000)
+// );
+
+// $tours-content-li: (
+//   null  :   (14px, 'sofia-pro', 300, 24px, $gray-000),
+//   tablet:   (16px, 'sofia-pro', 300, 24px, $gray-000),
+//   laptop:   (17px, 'sofia-pro', 300, 24px, $gray-000),
+//   desktop:  (18px, 'sofia-pro', 300, 24px, $gray-000)
+// );
+
+// // home above the fold
+// $home-h1: (
+//   null  :   (22px, inherit, 500, 28px, $scoot-red),
+//   tablet:   (32px, inherit, 500, 44px, $scoot-red),
+//   laptop:   (36px, inherit, 500, 48px, $scoot-red),
+//   desktop:  (42px, inherit, 500, 58px, $scoot-red)
+// );
+
+// $home-h2: (
+//   null  :   (16px, inherit, 400, 24px, $gray-000),
+//   tablet:   (20px, inherit, 300, 30px, $gray-000),
+//   laptop:   (22px, inherit, 200, 32px, $gray-000),
+//   desktop:  (24px, inherit, 200, 36px, $gray-000)
+// );
+// $news-heading:(
+//   null  :   (16px, inherit, 300, 30px, $gray-000),
+//   laptop:   (16px, inherit, 200, 40px, $gray-000),
+//   desktop:  (18px, inherit, 200, 50px, $gray-000)
+// );
+
+// // home below the fold
+// $home-info-h1:(
+//   null  :   (24px, inherit, 500),
+//   tablet:   (30px, inherit, 700),
+//   laptop:   (32px, inherit, 700),
+//   desktop:  (34px, inherit, 700)
+// );
+
+// $home-info-h2:(
+//   null  :   (18px, inherit, 500),
+//   tablet:   (20px, inherit, 700),
+//   laptop:   (22px, inherit, 700),
+//   desktop:  (24px, inherit, 700)
+// );
+
+// // hero template
+// $hero-template-h1:(
+//   null  :   (24px, inherit, 700),
+//   tablet:   (30px, inherit, 700),
+//   laptop:   (36px, inherit, 700),
+//   desktop:  (44px, inherit, 700)
+// );
+// $hero-template-h2:(
+//   null  :   (16px, inherit, 400),
+//   tablet:   (18px, inherit, 400),
+//   laptop:   (20px, inherit, 400),
+//   desktop:  (22px, inherit, 400)
+// );
+
+// // blog
+
+// $blog-info-preview: (
+//   null  :   (12px, $font-reg, 300, 15px, $gray-000),
+//   tablet:   (14px, $font-reg, 300, 17px, $gray-000),
+// );
+
+// $blog-post-paragraph: (
+//   null  :   (14px, $font-reg, 300, 18px),
+//   tablet:   (16px, $font-reg, 300, 20px),
+//   laptop:   (18px, $font-reg, 300, 22px),
+// );
+
+// $section-title-sizes: (
+//   null  :   (20px, $font-reg, 500, 28px),
+//   tablet:   (24px, $font-reg, 500, 32px),
+//   laptop:   (28px, $font-reg, 500, 36px)
+// );
+
+
+// // shortcodes for text/image blocks
+// $h1-in-img-block: (
+//   null  :   (28px, 'sofia-pro', 600, 44px),
+//   tablet:   (34px, 'sofia-pro', 600, 52px),
+//   laptop:   (38px, 'sofia-pro', 600, 56px),
+//   desktop:  (42px, 'sofia-pro', 600, 60px)
+// );
+
+// $h2-in-img-block: (
+//   null  :   (16px, 'sofia-pro', 300, 24px),
+//   tablet:   (18px, 'sofia-pro', 300, 24px),
+//   laptop:   (20px, 'sofia-pro', 300, 24px),
+//   desktop:  (22px, 'sofia-pro', 300, 24px)
+// );
+
+// $h1-in-text-block: (
+//   null  :   (22px, 'sofia-pro', 600, 30px),
+//   tablet:   (28px, 'sofia-pro', 600, 36px),
+//   laptop:   (30px, 'sofia-pro', 600, 38px),
+//   desktop:  (32px, 'sofia-pro', 600, 40px)
+// );
+
+// $h2-in-text-block: (
+//   null  :   (16px, 'sofia-pro', 300, 24px),
+//   tablet:   (18px, 'sofia-pro', 300, 26px),
+// );
+// $paragraph-in-text-block: (
+//   null  :   (14px, 'sofia-pro', 300, 20px),
+//   tablet:   (16px, 'sofia-pro', 300, 22px),
+//   laptop:   (17px, 'sofia-pro', 300, 23px),
+//   desktop:  (18px, 'sofia-pro', 300, 24px)
+// );
+
+// // ••••••••••••••••••••••••••••••
+// // ••••••••••••••••••••••••••••••
+// // set text align
+// // ••••••••••••••••••••••••••••••
+// // ••••••••••••••••••••••••••••••
+
+// $fleet-vehicle-title:(
+//   null:  ( center ),
+//   tablet:   ( left )
+// );
+
+// // home above the fold
+
+// $partner-cell-mos:(
+//   null  :   (left),
+//   tween:   (center),
+// );
+// $signup-home-alignment: (
+//   null  :   (center),
+//   laptop:   (left),
+// );
+// // home below the fold
+// $home-info-headings: (
+//   null  :   (left),
+// );
+
+// $hero-info-bottom-alignment:(
+//   null  :   (left),
+//   tablet:   (center),
+// );
+
+
+// // ••••••••••••••••••••••••••••••
+// // ••••••••••••••••••••••••••••••
+// // set display
+// // ••••••••••••••••••••••••••••••
+// // ••••••••••••••••••••••••••••••
+
+
+
+// // pmt
+
+// $pmt-container: (
+//   null  :   (none),
+//   tablet:   (flex),
+// );
+// // header
+
+
+// $nav-links-display: (
+//   null  :   (none),
+//   laptop:   (inline-block),
+// );
+
+// $navicon-display: (
+//   null  :   (block),
+//   tablet:   (none)
+// );
+// $top-nav-list-display: (
+//   null  :   (none),
+//   tablet:   (block),
+//   );
+
+// // homepage 2017 helper header (FAQ, Locations, Learn to Ride)
+// $homepage-helper-header: (
+//   null :   (flex),
+//   tween:   (none), 
+// );
+
+// $hero-signup-btn-display:(
+//   null :   (block),
+//   tablet:   (none), 
+// );
+  
+// // news module
+// $news-module-display: (
+//   null  :   (none),
+//   laptop:   (block),
+// );
+
+// $signup-home-container: (
+//   null  :   (block),
+//   laptop:   (inline-block),
+// );
+
+// // home page
+
+// $home-info-image:(
+//   null  :   (none),
+//   tablet:   (table-cell),
+// );
+
+// $home-download:(
+//   null  :   (block),
+//   laptop:   (none),
+// );
+
+// $get-the-app-homepage-display:(
+//   null:   (block)
+// );
+// $text-for-app-display:(
+//   null:   (none),
+//   tablet: (block)
+// );
+
+// // tours
+// $mobile-tour-booking:(
+//   null  :   (block),
+//   laptop:   (none),
+// );
+
+// $tours-menu:(
+//   null  :   (none),
+//   laptop:   (inline-block),
+// );
+
+// $mobile-tours-ss-imgs:(
+//   null  :   (block),
+//   laptop:   (none),
+// );
+// $desktp-tours-ss-imgs:(
+//   null  :   (none),
+//   laptop:   (block),
+// );
+
+
+
+
+// // ••••••••••••••••••••••••••••••
+// // ••••••••••••••••••••••••••••••
+// // SET WIDTH & HEIGHT
+// // ••••••••••••••••••••••••••••••
+// // ••••••••••••••••••••••••••••••
+
+// // fleet
+// $fleet-vehicle-img:(
+//   null  :   (250px !important, auto),
+//   tablet:   (auto, auto),
+// );
+
+// //mos
+// $partner-cell-selector:(
+//   null  :   (100%, 60px),
+//   tween:   (auto, 220px),
+// );
+// // header
+// $nav-height: (
+//   null  :   (100%, 40px),
+//   tablet:   (100%, 50px),
+//   laptop:   (100%, 60px),
+//   desktop:  (100%, 70px)
+// );
+
+// $masonry-tile-width: (
+//   null  :   (100%),
+//   tablet:   (48%),
+//   laptop:   (31%)
+// );
+
+// $masonry-sizer-width: (
+//   null  :   (100%),
+//   tablet:   (50%),
+//   laptop:   (33%),
+
+// );
+
+// // home page 2017
+// $home-page-hero-section: (
+//   null  :   (100%, calc(100vh - 60px) ),
+// );
+
+// $homepage-glider-wh: (
+//   null  :   (100%),
+//   tablet:   (90%),
+//   laptop:   (65%),
+//   desktop:  (62%),
+// );
+
+// $get-the-app-wh:(
+//   null  :   (100%),
+//   tablet:   (440px),
+// );
+
+// $homepage-cards:(
+//   null  :   (100%, 300px),
+//   tablet:   (100%, 350px),
+//   laptop:   (100%, 400px),
+// );
+
+// // locations page
+// // map
+// $locations-map-height:(
+//   null  :   (100%, 85vh),
+//   tablet:   (100%, 75vh),
+//   laptop:   (100%, 70vh),
+//   desktop:  (100%, 65vh)
+// );
+
+// // tours
+// $tours-left-col: (
+//   null  :   (100%),
+//   laptop:   (70%),
+// );
+
+
+// // mobile dl banner
+// $dl-banner-wh: (
+//   null  :   (100%, 80px),
+//   tablet:   (100%, 0px)
+// );
+
+// // shortcodes for images blocks
+// $image-block-height: (
+//   null  :   (100%, 100vh),
+//   tablet:   (100%, 40vh)
+// );
+
+// $text-block-height: (
+//   null  :   (100%, auto),
+//   tablet:   (100%, 100%)
+// );
+
+// // ••••••••••••••••••••••••••••••
+// // ••••••••••••••••••••••••••••••
+// // SET POSITION
+// // ••••••••••••••••••••••••••••••
+// // ••••••••••••••••••••••••••••••
+
+
+// $tours-book-btn: (
+//     null:   ( 10px, auto, auto, -4px !important ),
+//   tablet:   ( 10px, auto, auto, 0 !important ),
+//   laptop:   ( 0 !important, auto, auto, 0 !important ),
+// );
+
+// // dl-banner
+// $mobile-menu-top: (
+//   null:     (140px),
+//   tablet:   (60px),
+// ); 
+
+// $header-w-dl-banner: (
+//   null:     (80px),
+//   tablet:   (0px)
+// ); 
+
+// // ••••••••••••••••••••••••••••••
+// // ••••••••••••••••••••••••••••••
+// // SET BACKGROUND
+// // ••••••••••••••••••••••••••••••
+// // ••••••••••••••••••••••••••••••
+
+// // faq background:()
+// $faq-bg: (
+//   null  :   ( url(../img/ss-4.jpg) )
+// );
+
+// // homepage 
+
+// $homepage-hero-bg: (
+//   null  :   ( url(../img/2017-homepage-3.jpg) ),
+//   tween :   ( url(../img/2017-homepage-desktop-6.jpg) ),
+// );
+
+// $miles-counter-bg: (
+//   null  :   ( url(../img/2017-homepage-4.jpg) ),
+//   tablet :   ( url(../img/2017-homepage-desktop-7.jpg) ),
+//   desktop :   ( url(../img/2017-homepage-desktop-9.jpg) ),
+// );
+
+// $get-the-app-bg:(
+//   null  :   ( none ),
+//   tablet :  ( $scoot-red )
+// );
+
+// // miles
+
+// // ••••••••••••••••••••••••••••••
+// // ••••••••••••••••••••••••••••••
+// // SET FLEX
+// // ••••••••••••••••••••••••••••••
+// // ••••••••••••••••••••••••••••••
+// // flex: 1
+
+// $partner-cell-flex-only:(
+//   null  :   ( 1 ),
+//   tween:    ( 0 )
+// );
+
+// $couriers-cols:(
+//   null  :   ( 1 ),
+//   tween:    ( 0 )
+// );
+
+// // ••••••••••••••••••••••••••••••
+// // ••••••••••••••••••••••••••••••
+// // SET FLEX
+// // ••••••••••••••••••••••••••••••
+// // ••••••••••••••••••••••••••••••
+// // flex-direction  align-items  justify-content  
+
+
+// // mos
+
+// $jobs-flex:(
+//   null  :   ( column, center ),
+//   tablet:   ( row, center )
+// );
+// $jobs-title-flex:(
+//   null  :   ( row, center, center ),
+//   tablet:   ( row, center,flex-start )
+// );
+// $partner-cell-selector-flex:(
+//   null  :   ( row, center ),
+//   tween:   ( column, center )
+// );
+
+// $couriers-row:(
+//   null  :  ( column, center ),
+//   tween:   ( row, center )
+// );
+
+// $fleet-vehicle-item:(
+//   null  :  ( column, center ),
+//   tablet:   ( row, center )
+// );
+
+
+// $partner-selector-row-flex:(
+//   null  :   ( column, center ),
+//   tween:   ( row, center )
+// );
+
+// $home-page-new-rider-flex:(
+//   null  :   ( column, center ),
+//   tablet:   ( row, center )
+// );
+// $image-block-flex: (
+//   null  :   ( column, center ),
+//   tablet:   ( row, center )
+// );
+
+// $img-order-flex:(
+//   null  :   (3),
+//   tablet:   (1)
+// );
+
+// $text-block-flex-order: (
+//   null  :   (2),
+//   tablet:   (inherit)
+// );
+
+// $image-block-flex-order: (
+//   null  :   (1),
+//   tablet:   (inherit)
+// );
+
+// // Scoot MOS 
+// $mos-hero-col-flex:(
+//   null  :   ( column, center ),
+//   tablet:   ( row, center ),
+// );
+
+
+
+// // slideshow
+// $slideshow-1: (
+//   null  :   ( url(../img/slide-1-phone.jpg)  center center / cover ),
+//   tablet:   ( url(../img/slide-1-tablet.jpg) 0% 100% / auto 100% no-repeat ),
+//   laptop:   ( url(../img/slide-1-laptop.jpg) 0% 100% / auto 100% no-repeat ),
+//   desktop:  ( url(../img/slide-1-desktop.jpg) 0% 100% / auto 100% no-repeat )
+// );
+
+// // slideshow
+// $slideshow-1-lp2: (
+//   null  :   ( url(../img/ss-4-m.jpg)  center center / cover ),
+//   tablet:   ( url(../img/ss-4.jpg) 0% 100% / auto 100% no-repeat ),
+//   laptop:   ( url(../img/ss-4.jpg) 0% 100% / auto 100% no-repeat ),
+//   desktop:  ( url(../img/ss-4.jpg) 0% 100% / auto 100% no-repeat )
+// );
+
+
+// /// landing page only NEED TO FIX
+// // font-size, lh , weight // color, margin, padding, width, height, display
+
+// $content-inner-sizes: (
+//   null  :   (inherit,inherit,inherit,inherit,0 auto, 0 10px),
+//   tween :   (inherit,inherit,inherit,inherit,0 auto, 0 10px),
+//   tablet:   (inherit,inherit,inherit,inherit,0 auto, 0 10px),
+//   laptop:   (inherit,inherit,inherit,inherit,0 auto, 0 10px),
+//   desktop:  (inherit,inherit,inherit,inherit,0 auto, 0 10px)
+// );
+
+// $first-section-bg: (
+//   null  :   ( url(../img/intro-bg-m.png)),
+//   tween :   ( url(../img/intro-bg-m-plus.jpg)),
+//   tablet:   ( url(../img/intro-bg.jpg)),
+// );
+
+// $daypass-first-section-bg: (
+//   null  :   ( url(../img/daypass/daypass-bg-mobile.jpg)),
+//   tween :   ( url(../img/daypass/daypass-bg-mobile.jpg)),
+//   tablet:   ( url(../img/daypass/daypass-bg-3.jpg)),
+// );
+
+// $nav-logo: (
+//   null  :   ( inherit,inherit,inherit,auto,0 0 0 10px ),
+//   laptop:   ( inherit,inherit,inherit,auto,0 0 0 0 ),
+// );
+
+// $nav-btn: (
+//   null  :   ( inherit,inherit,inherit,auto,0 10px 0 0 ),
+//   laptop:   ( inherit,inherit,inherit,auto,0 0 0 0 ),
+// );
+
+// $section-1-h1: (
+//   null  :   ( 22px, inherit, 200, #fff ),
+//   tween :   ( 28px, inherit, 100, $scoot-red ),
+//   tablet:   ( 32px, inherit, 100, $scoot-red ),
+//   laptop:   ( 36px, inherit, 100, $scoot-red ),
+//   desktop:  ( 36px, inherit, 100, $scoot-red )
+// );
+
+// $section-1-h2: (
+//   null  :   ( 14px, inherit, 200, #fff),
+//   tween :   ( 22px, inherit, 100, $gray-300),
+//   tablet:   ( 22px, inherit, 100, $gray-300),
+//   laptop:   ( 22px, inherit, 100, $gray-300),
+//   desktop:  ( 22px, inherit, 100, $gray-300)
+// );
+
+// $hide-mobile-col-sizes: (
+//   null  :   (inherit,inherit,inherit,inherit,inherit,inherit,inherit,inherit,inherit, none ),
+//   tablet:   (inherit,inherit,inherit,inherit,inherit,inherit,inherit,inherit,inherit, table-cell ),
+
+// );
+
+// $hide-mobile-sizes: (
+//   null  :   (inherit,inherit,inherit,inherit,inherit,inherit,inherit,inherit,inherit, none ),
+//   tablet:   (inherit,inherit,inherit,inherit,inherit,inherit,inherit,inherit,inherit, block ),
+// );
+
+// $hide-desktop-sizes: (
+//   null  :   (inherit,inherit,inherit,inherit,inherit,inherit,inherit,inherit,inherit, block ),
+//   tablet:   (inherit,inherit,inherit,inherit,inherit,inherit,inherit,inherit,inherit, none ),
+// );
+
+// $map: (
+//   null  :   (inherit, inherit, inherit, inherit, 0 auto, inherit, inherit, inherit, 50vh ),
+//   tablet:   (inherit, inherit, inherit, inherit, 0 auto, inherit, inherit, inherit, 450px ),
+// );
+
+// $social-footer: (
+//   null  :   (inherit, inherit, inherit, inherit, -40px 0 -20px 0 !important, inherit, center ),
+//   tablet:   (inherit, inherit, inherit, inherit, 0 !important, inherit, left ),
+// );
+
+// $footer-wrapper: (
+//   null  :   (inherit, inherit, inherit, inherit, inherit, 0px !important ),
+//   tween :   (inherit, inherit, inherit, inherit, inherit, 10px !important ),
+// );
+
+
+// $section-3: (
+//   null  :   (auto,auto, 200, $gray-200, 0 0 20px 0, 0, center ),
+//   tablet:   (auto,auto, 200, $gray-200, 0 0 20px 0, 0, left ),
+// );
+
+
+// // $template: (
+// //   null  :   ( ),
+// //   tween :   ( ),
+// //   tablet:   ( ),
+// //   laptop:   ( ),
+// //   desktop:  ( )
+// // );

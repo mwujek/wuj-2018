@@ -1,0 +1,50 @@
+$yams: #f4511e;
+$max-width: 800px;
+$story-padding: 20px;
+
+.containers-are-for-kooks{
+	max-width: $max-width;
+	margin: 20px auto;
+	background: whitesmoke;
+	height: 2800px;
+}
+
+
+nav{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background: none;
+	.ocean-beach{
+		width: $max-width;
+		
+		h1.send-it{
+			margin: 0;
+			font-size: 26px;
+    		padding: 24px 0;
+			
+		}
+	}
+	
+}
+
+.story{
+	width: 100px;
+	padding: $story-padding;
+	box-sizing: border-box;
+}
+
+.track{
+	padding: 0;
+	margin: 10px 0;
+	display: flex;
+	align-items: center;
+	img{
+		width: 200px;
+		height: 200px;
+		margin-right: 20px;
+	}
+	// line-height: 0;
+}

@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Styrene';
+  src: url("../fonts/StyreneB-BoldItalic-Web.eot");
+  src: url("../fonts/StyreneB-BoldItalic-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/StyreneB-BoldItalic-Web.woff2") format("woff2"), url("../fonts/StyreneB-BoldItalic-Web.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: 'Styrene';
+  src: url("../fonts/StyreneB-Bold-Web.eot");
+  src: url("../fonts/StyreneB-Bold-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/StyreneB-Bold-Web.woff2") format("woff2"), url("../fonts/StyreneB-Bold-Web.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: 'Styrene';
+  src: url("../fonts/StyreneB-RegularItalic-Web.eot");
+  src: url("../fonts/StyreneB-RegularItalic-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/StyreneB-RegularItalic-Web.woff2") format("woff2"), url("../fonts/StyreneB-RegularItalic-Web.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: 'Styrene';
+  src: url("../fonts/StyreneB-Regular-Web.eot");
+  src: url("../fonts/StyreneB-Regular-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/StyreneB-Regular-Web.woff2") format("woff2"), url("../fonts/StyreneB-Regular-Web.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+
+* {
+  font-family: 'Styrene' !important;
+  font-feature-settings: "liga", "kern"; }
+
+@font-face {
+  font-family: 'Styrene';
+  src: url("../fonts/StyreneB-BoldItalic-Web.eot");
+  src: url("../fonts/StyreneB-BoldItalic-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/StyreneB-BoldItalic-Web.woff2") format("woff2"), url("../fonts/StyreneB-BoldItalic-Web.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: 'Styrene';
+  src: url("../fonts/StyreneB-Bold-Web.eot");
+  src: url("../fonts/StyreneB-Bold-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/StyreneB-Bold-Web.woff2") format("woff2"), url("../fonts/StyreneB-Bold-Web.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: 'Styrene';
+  src: url("../fonts/StyreneB-RegularItalic-Web.eot");
+  src: url("../fonts/StyreneB-RegularItalic-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/StyreneB-RegularItalic-Web.woff2") format("woff2"), url("../fonts/StyreneB-RegularItalic-Web.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: 'Styrene';
+  src: url("../fonts/StyreneB-Regular-Web.eot");
+  src: url("../fonts/StyreneB-Regular-Web.eot?#iefix") format("embedded-opentype"), url("../fonts/StyreneB-Regular-Web.woff2") format("woff2"), url("../fonts/StyreneB-Regular-Web.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+
+* {
+  font-family: 'Styrene' !important;
+  font-feature-settings: "liga", "kern"; }
+
+body, html {
+  font-family: 'Styrene';
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+.containers-are-for-kooks {
+  max-width: 800px;
+  margin: 20px auto;
+  background: whitesmoke;
+  height: 2800px; }
+
+nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: none; }
+  nav .ocean-beach {
+    width: 800px; }
+    nav .ocean-beach h1.send-it {
+      margin: 0;
+      font-size: 26px;
+      padding: 24px 0; }
+
+.story {
+  width: 100px;
+  padding: 20px;
+  box-sizing: border-box; }
+
+.track {
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  align-items: center; }
+  .track img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px; }
