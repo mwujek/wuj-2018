@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Reservations Process v1</title>
+
+  <link rel="shortcut icon" href="_images/icon.ico" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.2.1/flickity.min.css" rel="stylesheet"> -->
+  <link href="css/scoot-base-style.css" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script> -->
+
+  <!-- flickity -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.pkgd.min.js"></script> -->
+
+  <!-- mapbox -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/4.7.3/turf.min.js"></script>
+
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet' />
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.4/countUp.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.ui.min.js"></script>
+
+  
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+
+</head>
+
+<body>
+<div id="splash">
+    <span>Loading Test...</span>
+</div>
+  <nav>
+    <img src="img/scoot-logo.svg">
+  </nav>
+
+  <!-- <h1 id="test">test</h1>
+  <div id="log"></div> -->
+
+  <div id='map' class="full"></div>
+  <div class="location-btn">
+    <i class="icon ion-android-locate"></i>
+  </div>
+  <!-- <div id="pop">
+    <h1>Quick tip! Park at a garage and save $$</h1>
+  </div> -->
+  <!-- <section class="ui-area"> -->
+    <!-- <div class="fmas-start"><span>find a ride</span></div> -->
+
+
+  <section id="garage">
+    <img src="img/garage-1.png">
+    <div id="clicker"></div>
+  </section>
+
+
+
+
+
+    <article class="scoot-options-container">
+      
+      <div class="drawer-content-container">
+        <i class="icon ion-android-close" id="close-drawer"></i>
+        <section class="title" id="title">
+          <h1>Street Parked Scoot</h1>
+        </section>
+
+        <section class="ride-info">
+          <div class="info-stack cost">
+            <h2>Est Trip Cost</h2>
+            <h1 id="cost">$3 - 4</h1>
+          </div>
+
+          <div class="info-stack walking">
+            <h2 id="info-2">Walking Dist</h2>
+            <h1 id="timer">1 min</h1>
+          </div>
+          
+        </section>
+        <section class="scoot-info">
+          <div>
+            <h1>Scoot #861</h1>
+          </div>
+          <div class="scoot-info-img">
+            <img src="img/v/scoot-t.svg">  
+          </div>
+          <div>
+            <h1><i class="icon ion-battery-half"></i>8 mile range</h1>
+          </div>
+
+        </section>
+
+
+        <section class="ride-mode-row bottom-row" id="trip-bar">
+      <div class="trip-detail-container">
+        <section class="pickup">
+          <div class="description">Pickup: <span>Street Pickup</span></div>
+          <div class="context">Pick up on the street</div>
+        </section>
+        <section class="dest">
+          <div class="description">Parking: <span>Street Parking</span></div>
+          <div class="context">End inside blue zone </div>
+        </section>
+      </div>
+    </section>
+
+
+        <article class="action-btn">
+          <h1 id="reserve-btn">Reserve</h1>
+        </article>
+      </div> <!-- end of content -->
+      
+    
+
+
+
+
+      
+
+
+<!--       <div class="scoot-img">
+              <img src="img/v/scoot-t.svg">
+            </div>
+
+         -->
+      <!-- END OF RIDE OPTIONS -->
+
+
+
+
+      
+
+
+    </article>
+    
+<!--   </section> end of ui area -->
+
+
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
